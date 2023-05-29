@@ -1,0 +1,203 @@
+html{ 
+	font-size:20px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+@media (max-width: 557px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-height: 750px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 290px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+body{
+  margin:0px;
+  color:black;
+  text-align:center;
+  font-size:1.5rem;
+  background-color:#fef6dd
+}
+
+
+#dropdown{display:none;}
+
+
+@media (max-width:500px){
+	#dropdown{
+		 display:block;
+	}
+	
+	#dropdown img{width:50px; position:relative;}
+      #dropdown #dropdown-content {
+ 		 display: none;
+             position:relative;
+             font-size:1rem;
+	}
+	#dropdown:hover #dropdown-content {
+  		 display: block;
+	}
+
+}
+
+#overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0,0.3);
+  height:35%;
+  width:100%
+  z-index:0;
+}
+
+header{
+	background-image: url(background.jpg);
+	background-size:cover;
+	background-position:center 65%;
+	background-repeat:no-repeat;
+	width:100%;
+	height:35%;
+	z-index:-1;
+} 
+
+header nav{
+  position:relative;
+}
+
+
+
+
+#scritte h1{
+	margin-bottom:0px;
+	max-width:39rem;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#link nav{
+      display:flex;
+      justify-content: space-between
+}
+
+#link span{
+    font-weight:bold;
+    background-image: url(texture.png);
+    border-radius: 2em 1em 4em / 0.5em 3em;
+    padding: .3%;
+    margin-left:0.1rem;
+    margin-right:0.2rem;
+  
+}
+
+header{color:white;}
+
+#link span:hover{
+ background-image: url(texturesel.png);
+}
+
+
+@media (max-width:500px){
+	#link nav{display:none;}
+}
+
+#scritte{
+	position:relative;
+}
+
+#social{
+	display:flex;
+	justify-content: center;
+}
+
+#social img{
+  	width:1.5rem;
+}
+
+
+
+@media (max-width:500px){
+	#contenuti{
+		margin-top:1rem;
+	}
+}
+
+
+
+.Spettacolo{
+
+font-size:1.9rem;
+font-weight: 600;
+background-image:linear-gradient(to right, #fef6dd 45%, #feb300);
+
+}
+
+.hidden{
+display:none;
+}
+
+.container{display:block;}
+
+
+.er{color:red;
+	font-size:1.2rem;}
+
+.review{
+display:flex;
+flex-direction:row;
+justify-content:center;
+margin-bottom:1rem;
+}
+
+.username{color:blue; margin-right:0.5rem;}
+.time{font-size:0.9rem;}
+.delete{color:red; margin-left:0.5rem; cursor:pointer;}
+
+
+#slogga{
+position:fixed;
+bottom:3rem;
+right:1rem;
+cursor:pointer;
+color:#7d3cff;
+font-weight:900;
+font-style: oblique;
+
+}
+
+#footer{
+  position:fixed;
+  bottom:0;
+  width: 100%;
+  background-color: rgb(31, 31, 31);
+  color: rgba(255, 255, 255, .8);
+  text-align: center;
+}
+
+#project{
+margin:auto;
+width:90%;
+
+}
+
+
+
+
+
